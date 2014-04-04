@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151822C418BF508E003F90BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 151822C218BF508E003F90BC /* Default.png */; };
+		151822C518BF508E003F90BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 151822C318BF508E003F90BC /* Default@2x.png */; };
 		159CD26C18B70DC20041981C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159CD26B18B70DC20041981C /* Foundation.framework */; };
 		159CD26E18B70DC20041981C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159CD26D18B70DC20041981C /* CoreGraphics.framework */; };
 		159CD27018B70DC20041981C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159CD26F18B70DC20041981C /* UIKit.framework */; };
@@ -19,6 +21,8 @@
 		159CD28718B70DC20041981C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159CD26F18B70DC20041981C /* UIKit.framework */; };
 		159CD28F18B70DC20041981C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 159CD28D18B70DC20041981C /* InfoPlist.strings */; };
 		159CD29118B70DC20041981C /* PickerVIewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159CD29018B70DC20041981C /* PickerVIewTests.m */; };
+		159CD29D18B70F880041981C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159CD29B18B70F880041981C /* ViewController.m */; };
+		159CD29E18B70F880041981C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159CD29C18B70F880041981C /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		151822C218BF508E003F90BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		151822C318BF508E003F90BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		159CD26818B70DC20041981C /* PickerVIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerVIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		159CD26B18B70DC20041981C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		159CD26D18B70DC20041981C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,9 @@
 		159CD28C18B70DC20041981C /* PickerVIewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickerVIewTests-Info.plist"; sourceTree = "<group>"; };
 		159CD28E18B70DC20041981C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		159CD29018B70DC20041981C /* PickerVIewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerVIewTests.m; sourceTree = "<group>"; };
+		159CD29A18B70F880041981C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		159CD29B18B70F880041981C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		159CD29C18B70F880041981C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,8 @@
 		159CD25F18B70DC20041981C = {
 			isa = PBXGroup;
 			children = (
+				151822C218BF508E003F90BC /* Default.png */,
+				151822C318BF508E003F90BC /* Default@2x.png */,
 				159CD27118B70DC20041981C /* PickerVIew */,
 				159CD28A18B70DC20041981C /* PickerVIewTests */,
 				159CD26A18B70DC20041981C /* Frameworks */,
@@ -109,6 +120,9 @@
 			children = (
 				159CD27A18B70DC20041981C /* AppDelegate.h */,
 				159CD27B18B70DC20041981C /* AppDelegate.m */,
+				159CD29A18B70F880041981C /* ViewController.h */,
+				159CD29B18B70F880041981C /* ViewController.m */,
+				159CD29C18B70F880041981C /* ViewController.xib */,
 				159CD27D18B70DC20041981C /* Images.xcassets */,
 				159CD27218B70DC20041981C /* Supporting Files */,
 			);
@@ -220,7 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				159CD27618B70DC20041981C /* InfoPlist.strings in Resources */,
+				159CD29E18B70F880041981C /* ViewController.xib in Resources */,
+				151822C518BF508E003F90BC /* Default@2x.png in Resources */,
 				159CD27E18B70DC20041981C /* Images.xcassets in Resources */,
+				151822C418BF508E003F90BC /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159CD29D18B70F880041981C /* ViewController.m in Sources */,
 				159CD27C18B70DC20041981C /* AppDelegate.m in Sources */,
 				159CD27818B70DC20041981C /* main.m in Sources */,
 			);
@@ -441,6 +459,7 @@
 				159CD29618B70DC20041981C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		159CD29718B70DC20041981C /* Build configuration list for PBXNativeTarget "PickerVIewTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +468,7 @@
 				159CD29918B70DC20041981C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
